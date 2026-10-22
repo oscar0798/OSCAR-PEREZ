@@ -273,7 +273,7 @@ export const Header: React.FC<HeaderProps> = ({
         </div>
 
         {/* Gamification status bar & Controls */}
-        <div className="flex items-center justify-between md:justify-end gap-2.5 sm:gap-3 overflow-x-auto py-1">
+        <div className="flex items-center justify-center md:justify-center gap-2.5 sm:gap-3 overflow-x-auto py-1">
           {/* XP & Level (visible in both modes, especially for learners) */}
           <div className="flex items-center gap-2.5 bg-slate-50 dark:bg-slate-800/80 px-3 py-1.5 rounded-xl border border-slate-200 dark:border-slate-700 shrink-0">
             <div className="flex items-center gap-1.5 text-amber-500">
